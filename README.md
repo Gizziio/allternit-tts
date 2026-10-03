@@ -69,3 +69,7 @@ parent even if the parent is killed. Logs go to stderr.
 GPL-3.0-or-later (`LICENSE`). Third-party components: `THIRD_PARTY_NOTICES.md`.
 This directory is the complete corresponding source of the `allternit-tts`
 binary, together with sherpa-onnx 1.13.8, whose static libraries it links.
+
+## Browser build (WebAssembly)
+
+Allternit also serves a browser WebAssembly build of sherpa-onnx (which links espeak-ng, GPL-3.0-or-later) for in-browser voice. Its corresponding-source recipe, with pinned inputs and checksums, is in [`wasm/BUILD.md`](wasm/BUILD.md).
