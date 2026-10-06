@@ -1,4 +1,4 @@
-# Browser WebAssembly build of sherpa-onnx (for `Gizziio/allternit-tts`, `wasm/BUILD.md`)
+# Browser WebAssembly build of sherpa-onnx (for `Allternit/allternit-tts`, `wasm/BUILD.md`)
 
 This is the corresponding-source recipe for the `sherpa-onnx-wasm.{js,wasm}` that Allternit serves under
 `/voice-engine/`. The wasm links espeak-ng (GPL-3.0-or-later) for Kokoro's phonemizer, so it is distributed
